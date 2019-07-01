@@ -1,0 +1,7 @@
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/win10/Downloads/linux-master\\linux-master\\drivers\\gpu\\drm\\nouveau\\nvkm\\subdev\\i2c\\aux.c'
+原因：一个名为aux.c的文件无法读取
+
+Too many values to unpack
+原因：错误代码如下
+for key, value in d:
+直接改为通过键名访问键值即可
